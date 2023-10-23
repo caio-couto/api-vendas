@@ -8,10 +8,10 @@ class UserToken
 
   @Column()
   @Generated("uuid")
-  token: string
+  token: string;
 
   @Column()
-  user_id: string
+  user_id: string;
 
   @CreateDateColumn()
   created_at: Date;
