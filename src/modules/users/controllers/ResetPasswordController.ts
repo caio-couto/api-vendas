@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import ResetPasswordService from "../services/ResetPasswordService";
+import { instanceToInstance } from "class-transformer";
 
 class ResetPasswordController
 {
