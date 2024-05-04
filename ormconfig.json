@@ -5,13 +5,9 @@
   "username": "postgres",
   "password": "123456",
   "database": "apivendas",
-  "entities": ["./dist/modules/**/typeorm/entities/*.js"],
-  "migrations": 
-  [
-    "./dist/shared/typeorm/migrations/*.js"
-  ],
-  "cli": 
-  {
-    "migrationsDir": "./dist/shared/typeorm/migrations"
+  "entities": ["./src/modules/**/typeorm/entities/*.ts"],
+  "migrations": ["./src/shared/typeorm/migrations/*ts"],
+  "cli":{
+    "migrationsDir": "./src/shared/typeorm/migrations"
   }
 }
