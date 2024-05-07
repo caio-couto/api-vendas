@@ -9,6 +9,8 @@ import "@shared/typeorm";
 import { errors } from "celebrate";
 import uploadConfig from "@config/upload";
 
+const PORT: number = 8080;
+
 const app = express();
 
 app.use(cors());
@@ -41,7 +43,7 @@ app.use((error: Error, request: Request, response: Response, next: NextFunction)
   });
 });
 
-app.listen(8080, () =>
+app.listen(PORT, () =>
 {
   console.log("Server started on port 8080!");
 });

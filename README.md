@@ -1,6 +1,6 @@
 # Api-Vendas
 
-Api-Vendas é um projeto que reproduz uma API RESTfull de um e-commerce.
+Api-Vendas é um projeto que reproduz uma API RESTful de um e-commerce.
 
 Este documento serve como referência técnica para a base de código. A presente documentação tem como objetivo fornecer um entendimento abrangente das principais estrutura do código, funcionalidades e mecanismos de interação com a API.
 
@@ -186,6 +186,10 @@ $ curl --location --request PATCH 'http://localhost:8080/users/avatar' \
 --header 'Authorization: Bearer TOKEN' \
 --form 'avatar=@"PATH TO IMAGE"'
 ```
+
+### Outros endpoints
+
+Todos os endpoints estão documentados no **Postman**. Utilize o código: **21095332-23f92b75-16ab-47e3-b9c7-c532a419bd52**, para importar o projeto dentro do aplicativo
     
 #### Response
 
