@@ -203,7 +203,7 @@ Para executar o projeto localmete basta seguir os passos a baixo.
 
 > **_NOTE:_**  Para esta etapa é necessário ter instalado em sua máquina o Docker e Docker Compose.
 
-Clone-o no sua máquina local.
+Clone o projeto em sua máquina local.
 
 ```sh
 $ git  clone  https://github.com/caio-couto/api-vendas.git
@@ -224,7 +224,8 @@ basta dar o seguinte comando:
 $ chmod +x .docker/entrypoint.sh
 ```
 
-- Se ocorrer erros ao inicializar o banco de dados ou para realizar as migrações, uma possível causa é a extenção **uui-ossp** que deve estar instala no banco.
+- Se ocorrer erros ao inicializar o banco de dados ou para realizar as migrações, uma possível causa é a extensão **uui-ossp** que deve estar instalada no banco.
+
 ## 📜 License
 
 This software is licensed under the [MIT](https://github.com/nhn/tui.editor/blob/master/LICENSE) ©.
